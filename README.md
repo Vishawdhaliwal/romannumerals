@@ -3,18 +3,21 @@
 This is a Java / Maven / Spring Boot (version 1.5.6) application that can be used to perform conversion of Numeric values from 1 to 255 to Roman numerals. 
 Refer - https://en.wikipedia.org/wiki/Roman_numerals
 
-## How to Run 
-
-This application is packaged as a war which has Tomcat 9 embedded. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
+## How to Build 
 
 * Clone the repository 
 * Ensure you are using JDK 1.8 or higher and Maven 3.x
 * You can build the project and run the tests by running ```mvn clean package```
-* Once successfully built, you can run the service by one of these two methods:
+* The war file will be created in the target directory of the project.
+
+## How to Run 
+
+This application is packaged as a war which has Tomcat 9 embedded. No Tomcat or JBoss installation is necessary. You can run it using the ```java -jar``` command.
+
+* Once successfully built, you can run the service by the following command:
 ```
         java -jar -Dspring.profiles.active=test target/romannumeral-0.0.1-SNAPSHOT.war
 ```
-* Check the stdout or boot_example.log file to make sure no exceptions are thrown
 
 Once the application runs you should see messages similar to below - 
 
