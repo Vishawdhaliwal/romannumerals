@@ -3,8 +3,6 @@ package com.vishu.romannumeral.utils;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.vishu.romannumeral.RomanChars;
-
 public class Constants {
 
 	/**
