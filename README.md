@@ -5,7 +5,7 @@ Refer - https://en.wikipedia.org/wiki/Roman_numerals
 
 ## How to Run 
 
-This application is packaged as a war which has Tomcat 8 embedded. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
+This application is packaged as a war which has Tomcat 9 embedded. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
 
 * Clone the repository 
 * Ensure you are using JDK 1.8 or higher and Maven 3.x
